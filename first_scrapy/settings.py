@@ -70,8 +70,8 @@ ROBOTSTXT_OBEY = False
 ITEM_PIPELINES = {
     # 'first_scrapy.pipelines.JsonExpoterPipeline': 2,
     # 'scrapy.pipelines.images.ImagesPipeline':1
-    'first_scrapy.pipelines.ArticleImagePipeline': 1,
-    'first_scrapy.pipelines.MysqlTwisedPipeline': 2,
+    # 'first_scrapy.pipelines.ArticleImagePipeline': 1,
+    'first_scrapy.pipelines.MysqlTwisedPipeline': 1,
 }
 IMAGES_URLS_FIELD = 'font_image_url'
 file_path = os.path.dirname(os.path.abspath(__file__))

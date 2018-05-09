@@ -163,4 +163,4 @@ class AccountZhihu(object):
 
 if __name__ == '__main__':
     account = AccountZhihu()
-    account.login(username='13093729859', password='whf454545[]', load_cookies=True)
+    account.login(username='13093xxxxx', password='whf45xxxxx', load_cookies=True)
